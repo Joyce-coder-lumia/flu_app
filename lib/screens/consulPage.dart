@@ -67,34 +67,34 @@ class _ConsulPageState extends State<ConsulPage> {
                     'Diagnostics:',
                     style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue, fontSize: 16),
                   ),
-                  SizedBox(height: 4), // Spacing
+                  SizedBox(height: 4), 
                   Text(consultation['diagnostics']),
-                  SizedBox(height: 16), // Spacing between sections
+                  SizedBox(height: 16), 
 
                   // Prescriptions
                   Text(
                     'Prescriptions:',
                     style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue, fontSize: 16),
                   ),
-                  SizedBox(height: 4), // Spacing
+                  SizedBox(height: 4), 
                   Text(consultation['prescriptions']),
-                  SizedBox(height: 16), // Spacing between sections
+                  SizedBox(height: 16), 
 
                   // Advice
                   Text(
                     'Advice:',
                     style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue, fontSize: 16),
                   ),
-                  SizedBox(height: 4), // Spacing
+                  SizedBox(height: 4), 
                   Text(consultation['advice']),
-                  SizedBox(height: 16), // Spacing between sections
+                  SizedBox(height: 16), 
 
                   // Additional Notes
                   Text(
                     'Additional Notes:',
                     style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue, fontSize: 16),
                   ),
-                  SizedBox(height: 4), // Spacing
+                  SizedBox(height: 4), 
                   Text(consultation['additional_notes']),
                 ],
               ),
