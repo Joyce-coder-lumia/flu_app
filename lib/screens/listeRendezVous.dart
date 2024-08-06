@@ -280,7 +280,7 @@ class _ListeRendezVousState extends State<ListeRendezVous> {
               var canceledByPatientAppointments = snapshot.data!['canceled_by_patient']!;
               print("Upcoming Appointments: $upcomingAppointments"); // Ligne de débogage
               print("Past Appointments: $pastAppointments"); // Ligne de débogage
-              print("Canceled by Patient Appointments: $canceledByPatientAppointments"); // Ligne de débogage
+              print("Canceled by Patient Appointments: $canceledByPatientAppointments"); 
 
               return TabBarView(
                 children: [
@@ -319,7 +319,7 @@ class AppointmentList extends StatelessWidget {
           appointment: appointment,
           showCancelButton: showCancelButton,
           onCancel: onCancel != null ? () => onCancel!(appointmentId) : null,
-          onAddJournal: onAddJournal != null ? () => onAddJournal!(appointmentId) : null, // Modification ici
+          onAddJournal: onAddJournal != null ? () => onAddJournal!(appointmentId) : null, 
         );
       },
     );
